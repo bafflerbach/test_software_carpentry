@@ -1,4 +1,4 @@
-# BENUPDATE Lesson title
+# Introduction to Basics of Machine Learning Based Research
 
 [![Create a Slack Account with us](https://img.shields.io/badge/Create_Slack_Account-The_Carpentries-071159.svg)](https://swc-slack-invite.herokuapp.com/)
 
@@ -56,9 +56,10 @@ how to write new episodes.
 
 Current maintainers of this lesson are
 
-* BENUPDATE
-* BENUPDATE
-* BENUPDATE
+* Benjamin Afflerbach
+* Dane Morgan
+* Matthew Stilwell
+* Anne Lynn Gillian-Daniel
 
 
 ## Authors
