@@ -33,7 +33,11 @@ Because you will inevitably run into roadblocks and obstacles and you will have 
 > * Interact with your group mentor
 > * Seek out other subject experts
 > * Identify ways you can move forward even in the face of uncertainty
-
+>  
+> After developing a more complete list, place them into three categories:  
+> 1. Things I can try to do independently:
+> 2. If that doesn’t work, things I could try to do next:
+> 3. If my other attempts fail, then try:  
 {: .discussion}
   
 Reference:  W.C. Crone, Introduction to Engineering Research, Morgan & Claypool Publishers (2020).  
