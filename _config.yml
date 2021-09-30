@@ -104,10 +104,10 @@ highlighter: rouge
 remote_theme: carpentries/carpentries-theme
 
 # reorder lessons and profdev
-episode_order:
-    - MLbasics
-    - Citrination 
-    - EthicalData    
-    - MASTMLbasics
-    - MASTMLworkflows
-    - Hyperopt
+#episode_order:
+#    - MLbasics
+#    - Citrination 
+#    - EthicalData    
+#    - MASTMLbasics
+#    - MASTMLworkflows
+#    - Hyperopt

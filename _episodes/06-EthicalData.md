@@ -37,4 +37,7 @@ These are just a few examples that you may run into, but there are others. Your 
 > * Describe two examples of when the removal of these data points would be considered unethical data manipulation. 
 {: .discussion}
   
+Reference:  W.C. Crone, Introduction to Engineering Research, Morgan & Claypool Publishers (2020).  
+(Note: This book is available as a free PDF download from the university library.)
+
 {% include links.md %}
