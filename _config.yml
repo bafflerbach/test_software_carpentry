@@ -102,3 +102,12 @@ highlighter: rouge
 
 # Remote theme
 remote_theme: carpentries/carpentries-theme
+
+# reorder lessons and profdev
+episode_order:
+    - Introduction_to_Citrination
+    - Basics_of_Machine_Learning
+    - Ethical_Data_Cleaning
+    - Introduction_to_MASTML
+    - Modifying_Workflows_with_MASTML
+    - Hyperparameter_Optimization
