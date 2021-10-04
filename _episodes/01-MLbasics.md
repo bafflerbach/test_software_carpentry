@@ -13,7 +13,7 @@ questions:
 objectives:
 - "Students can list several basic machine learning model types, the types of predictions that can be made, and metrics for assessing performance"
 - "Students will create an account on Nanohub and learn how to run tools there"
-- "Students can define assessment metrics'
+- "Students can define assessment metrics"
 - "Students practice saving and interacting with tools on Nanohub"
 - "Students are introduced to effective practices for maintaining a useful record of research"
 - "Students continue to learn about model types, key outputs, and metrics for assessing performance"
