@@ -3,44 +3,48 @@ title: "Basics of Machine Learning"
 teaching: 25
 exercises: 120
 questions:
-- "What are the inputs of a machine learning model?"
-- "what are basic types of ml models, how do they differ?"
+- "What is an example of a research problem machine learning can solve?"
+- "How does machine learning approach solving this kind of problem?"
+- "What are the inputs of a machine learning model called?"
 - "What types of outputs (predictions) can machine learning models make?"
+- "what is the basic structure of a decision tree or random forest model?"
 - "How does a machine learning model make predictions from its inputs?"
-- "What are key steps in a workflow for building machine learning models?"
-- "How can we save a Jupyter Notebook on Nanohub?"
-
+- "What are key steps in a workflow for solving a research problem (from the first question)?"
+- "How can we use Jupyter Notebooks to run python code to complete this workflow?"
 objectives:
-- "Students can list several basic machine learning model types, the types of predictions that can be made, and metrics for assessing performance"
-- "Students will create an account on Nanohub and learn how to run tools there"
-- "Students can define assessment metrics"
-- "Students practice saving and interacting with tools on Nanohub"
-- "Students are introduced to effective practices for maintaining a useful record of research"
-- "Students continue to learn about model types, key outputs, and metrics for assessing performance"
-- "Students continue discussing effective practices for maintaining a useful record of research"
+- "Students can describe the structure of several basic machine learning model types, the types of predictions that can be made, and metrics for assessing regression and classification performance"
+- "Students will create an account on Nanohub and learn how to run Jupyter Notebook tools hosted there"
+- "Students can define assessment metrics and describe which should be maximized or minimized to improve model performance"
+- "Students will practice saving and interacting with tools on Nanohub"
+- "Students can describe the difference between training/testing/validation data"
+- "Students can assess model performance via parity plots of training/testing/validation data"
+- "Students will compare model predictive capabilities for two potential model use cases"
+- "Students can execute a predifined workflow for data cleaning, feature generation, feature engineering, model assessment, model optimization, and model predictions"
 keypoints:
-- "Inputs to machine learning models are called features. Some datasets may come with features, other times they need to be generated using knowledge of the specific data."
-- "Machine learning models can make predictions of numbers (regression) or classes (classification). Different model types are suited to different types of predictions."
-- "A machine learning model is an algorithm for finding patterns (relationships) between the input features and an output."
-- "The workflow (process) for building machine learning models is broken down into key steps: Feature Generation, Feature Engineering, Model Assessment, Model Optimization, and Model Predictions"
+- "Machine learning (specifically supervised learning) can be used to model complex materials properties that are hard to obtain experimentally"
+- "Machine learning models do this by learning relationships and patterns from existing datasets, and use those learned patterns to make predictions of properties of new materials"
+- "Inputs to machine learning models are called features. Some datasets may come with features, other times they need to be generated using knowledge of the specific dataset"
+- "Machine learning models can make predictions of continuous variables (regression) or classes of data (classification). Different model types are suited to different types of predictions"
+- "A decision tree / random forest model can be thought of as a series of sequential binary splits being made on a dataset, which each split further reducing the amount of data in a *branch* until a *leaf* is reached and a prediction made for the data in that *leaf*"
+- "A machine learning model learns patterns and relationships from its input features and uses those patterns to make predictions of an output"
+- "The workflow or process for building machine learning models is broken down into key steps: Feature Generation, Feature Engineering, Model Assessment, Model Optimization, and Model Predictions"
 ---
 
 ## Background
   
-This lecture gives a summary of basic machine learning model types, descriptions of input features, data types, classes of models, and a description of several overarching ideas in machine learning.
+In this introductory lecture lecture we give a summary of basic machine learning model types, descriptions of input features, data types, classes of models, and a description of several overarching ideas in machine learning. 
+
 
   
 [Recorded Lecture](https://drive.google.com/file/d/1ZKl3toDN5FO01keG_e_HFMRPjk_EmAk0/view?usp=sharing)
   
-[Lecture Slides](../files/Intro to ML.pptx)
-  
-[Lecture Notes](../files/Module 1 Lecture Notes.pdf)
+You may also view the [Lecture Slides](../files/Intro to ML.pptx) and [Lecture Notes](../files/Module 1 Lecture Notes.pdf) in addition to the recorded lecture.
   
 
   
 > ## Readings
 > Here are a few nice introductory articles discussing machine learning basics. 
-> They cover the topic from slightly different perspectives, and go into some concepts which will be covered in more detail in other modules here.
+> They cover the topic from slightly different perspectives, and go into some concepts which will be covered in more detail in other modules.
 >  
 > [Towards Data Science Article](https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916)
 >  
@@ -49,10 +53,16 @@ This lecture gives a summary of basic machine learning model types, descriptions
   
 > ## Activity: Introduction to Machine Learning for Materials Science
 > 
->  This activity will take sections of lecture and give a hands on example of working through key steps in a machine learning workflow for training and assessing models.
-> In order to complete this activity you will need to either create an account or log in with an existing google account to be able to run the tool at the following link: [Machine Learning Activity](https://nanohub.org/tools/intromllab/)  
+>  This activity will give a hands on example of executing a machine learning workflow for training a model to predict materials properties.
+> The activity runs through a Jupyter Notebook hosted on the Nanohub platform. 
+> This notebook contains instructions, code, and exercises to read, execute, and answer within the notebook itself. 
+> You can begin the activity by Launching the tool on Nanohub [Here](https://nanohub.org/tools/intromllab/).
+> In order to complete this activity you will need to either create an account or log in with an existing google account to be able to run the tool.
 >  
-> **Important!** Saving your work in Nanohub is a bit tricky. Follow these instructions to create a copy of the notebook once you've launched the tool via the link.
+> If you'd like you may also follow along with a [video walkthrough](https://www.youtube.com/playlist?list=PLUDGrMBDVGZlmFW1kbmq9NI2cMs2eCRON) which discusses the main sections of the notebook activity.
+>  
+> **Important!**  
+> Saving your work in Nanohub is a bit tricky. Follow these instructions to create a copy of the notebook once you've launched the tool via the link.
 >  
 > 1. With your notebook open (by clicking the launch tool button) make a copy if you haven’t already using the File drop down menu in the top left. Then save the copy by clicking “save and checkpoint”.
 > 2. Open the Nanohub Jupyter tool by hitting launch tool here: https://nanohub.org/tools/jupyter
@@ -62,14 +72,12 @@ This lecture gives a summary of basic machine learning model types, descriptions
 >  
 > **Note: do not move the notebook or save to another location on nanohub's virtual computer or else some aspects of the code will break.**
 >  
-> Follow the Link to get started if you did not click above: [Nanohub Introduction to ML Lab](https://nanohub.org/tools/intromllab/)
+> Follow the [Link](https://nanohub.org/tools/intromllab/) to get started if you did not click above.
 >  
-> [Video Walkthrough of Nanohub Activity](https://www.youtube.com/playlist?list=PLUDGrMBDVGZlmFW1kbmq9NI2cMs2eCRON)
 >  
 > > ## Extra Help
-> > If you are starting with little to no background with python programming, or have never used a Jupyter Notebook before it may help to follow along with the video.
-> >  
-> > Additionally you may find it useful to review the introductory modules on python programming via [software carpentry](https://drive.google.com/drive/folders/1o9nzKC2fXTaKIHXot-WLBcZkM1lKAhOj?usp=sharing)
+> > 
+> > If you are starting with little python backgroud you may find it useful to review the introductory module on python programming via [software carpentry](https://drive.google.com/drive/folders/1o9nzKC2fXTaKIHXot-WLBcZkM1lKAhOj?usp=sharing).
 > >  
 > > 
 > {: .solution}
