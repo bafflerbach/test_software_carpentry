@@ -33,8 +33,6 @@ keypoints:
 ## Background
   
 In this introductory lecture lecture we give a summary of basic machine learning model types, descriptions of input features, data types, classes of models, and a description of several overarching ideas in machine learning. 
-
-
   
 [Recorded Lecture](https://drive.google.com/file/d/1ZKl3toDN5FO01keG_e_HFMRPjk_EmAk0/view?usp=sharing)
   
