@@ -8,7 +8,7 @@ objectives:
 - "Students will upload data to Citrination"
 - "Students will configure inputs and outputs for a Random Forest model on Citrination"
 - "Students will assess parity plots and dataset analysis generated on the Citrination platform"
-- "Students can identify and remove bad data from a dataset"
+- "Students can identify and remove incorrect data from a dataset"
 - "Students assess the effects of dataset size on model performance"
 keypoints:
 - "With some initial setup and configuration, Citrination automates a full workflow of generating features, training a model, optimizing hyperparameters, assessing performance for a random forest model"
@@ -26,7 +26,7 @@ keypoints:
   
 > ## Activity: Introduction to Citrination
 >  
->1. Log in to [Citrination](https://citrination.com/). You will either need to create an account or you can use your Google log in. We recommend using either Chrome or Safari, as Citrination does not work well with FireFox and you’ll be missing some crucial data (this may be fixed).  
+>1. Log in to [Citrination](https://citrination.com/). You will either need to create an account or you can use your Google log in. We recommend using either Chrome or Safari, as in the past Citrination has had some errors with FireFox and you may be missing some crucial data (this may be fixed).  
 >  
 >2. Create a data set in Citrination & create a data view using it ([Tutorial on uploading data to Citrination](https://youtu.be/g9DTHnIp1kQ))  
 >    2.1. Click on the Add Data tab at the top in Citrination. Then select Create new dataset.  
