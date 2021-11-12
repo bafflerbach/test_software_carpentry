@@ -3,31 +3,19 @@ title: "Basics of Machine Learning"
 teaching: 25
 exercises: 120
 questions:
-- "What is an example of a research problem machine learning can solve?"
-- "How does machine learning approach solving this kind of problem?"
-- "What are the inputs of a machine learning model called?"
-- "What types of outputs (predictions) can machine learning models make?"
-- "what is the basic structure of a decision tree or random forest model?"
+- "What type of research problems can machine learning solve, and what approach do models use to accomplish this?"
 - "How does a machine learning model make predictions from its inputs?"
 - "What are key steps in a workflow for solving a research problem (from the first question)?"
-- "How can we use Jupyter Notebooks to run python code to complete this workflow?"
+  
 objectives:
 - "Students can describe the structure of several basic machine learning model types, the types of predictions that can be made, and metrics for assessing regression and classification performance"
-- "Students will create an account on Nanohub and learn how to run Jupyter Notebook tools hosted there"
-- "Students can define assessment metrics and describe which should be maximized or minimized to improve model performance"
-- "Students will practice saving and interacting with tools on Nanohub"
-- "Students can describe the difference between training/testing/validation data"
-- "Students can assess model performance via parity plots of training/testing/validation data"
-- "Students will compare model predictive capabilities for two potential model use cases"
-- "Students can execute a predifined workflow for data cleaning, feature generation, feature engineering, model assessment, model optimization, and model predictions"
+- "Studnets will gain skills in executing machine learning workflows via jupyter notebooks on cloud computing platforms which they can transfer to other projects."
+- "Students will assess model performance on two potential applications and justify which task the model is appropriate for" 
+  
 keypoints:
 - "Machine learning (specifically supervised learning) can be used to model complex materials properties that are hard to obtain experimentally"
-- "Machine learning models do this by learning relationships and patterns from existing datasets, and use those learned patterns to make predictions of properties of new materials"
-- "Inputs to machine learning models are called features. Some datasets may come with features, other times they need to be generated using knowledge of the specific dataset"
-- "Machine learning models can make predictions of continuous variables (regression) or classes of data (classification). Different model types are suited to different types of predictions"
-- "A decision tree / random forest model can be thought of as a series of sequential binary splits being made on a dataset, which each split further reducing the amount of data in a *branch* until a *leaf* is reached and a prediction made for the data in that *leaf*"
-- "A machine learning model learns patterns and relationships from its input features and uses those patterns to make predictions of an output"
-- "The workflow or process for building machine learning models is broken down into key steps: Feature Generation, Feature Engineering, Model Assessment, Model Optimization, and Model Predictions"
+- "Machine learning models make predictions by learning relationships and patterns from existing data, and use those learned patterns to make predictions of properties of new materials"
+- "The workflow or process for building machine learning models can be broken down into key steps: Data Cleaning, Feature Generation, Feature Engineering, Model Assessment, Model Optimization, and Model Predictions"
 ---
 
 ## Background
@@ -62,11 +50,13 @@ You may also view the [Lecture Slides](../files/Intro to ML.pptx) and [Lecture N
 > **Important!**  
 > Saving your work in Nanohub is a bit tricky. Follow these instructions to create a copy of the notebook once you've launched the tool via the link.
 >  
-> 1. With your notebook open (by clicking the launch tool button) make a copy if you haven’t already using the File drop down menu in the top left. Then save the copy by clicking “save and checkpoint”.
-> 2. Open the Nanohub Jupyter tool by hitting launch tool here: https://nanohub.org/tools/jupyter
-> 3. Navigate to the folder “data/results/####/intromllab/bin/”. Note the number will be a unique number associated with your session. Pick the most recent once if there are multiple (or an older one if you are looking for an older saved file).
-> 4. Double click the notebook file “intromllab-Copy1.ipynb” to launch your saved notebook.
-> 5. You can now save this notebook freely, and to return to this notebook later launch the same tool as step 2 and follow the instructions from there.
+> 1. With your notebook open (by clicking the launch tool button) make a copy if you haven’t already using the File drop down menu in the top left. 
+> 2. The copy will open in a new tab in your browser. Save the copy by clicking “save and checkpoint” under the File drop down menu in the new tab.
+> 3. At this point you may close the original tab as we won't use it anymore. 
+> 4. To find the newly copied file (to download or open it up later) we will use the [Jupyter tool](https://nanohub.org/tools/jupyter) on Nanohub. Launch this tool which will give us access to the virtual computer that Nanohub is hosting for us. 
+> 5. Navigate to the folder “data/results/####/intromllab/bin/”. Note: the number will be a unique number associated with your session. Pick the most recent one if there are multiple (or an older one if you are looking for an older saved file).
+> 6. Double click the notebook file “intromllab-Copy1.ipynb” to launch your saved notebook. This is the newly copied notebook file that you just created.
+> 7. You can now save this notebook freely, and to return to this notebook later launch the same tool as step 2 and follow the instructions from there.
 >  
 > **Note: do not move the notebook or save to another location on nanohub's virtual computer or else some aspects of the code will break.**
 >  
