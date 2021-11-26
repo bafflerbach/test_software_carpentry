@@ -3,7 +3,9 @@ title: "Introduction to Citrination"
 teaching: 20
 exercises: 120
 questions:
+- "What is Citrination?"
 - "How can we use the Citrination platform to complete a materials design task?"
+
 objectives:
 - "Students will upload data to Citrination"
 - "Students will configure inputs and outputs for a Random Forest model on Citrination"
@@ -14,7 +16,7 @@ keypoints:
 - "With some initial setup and configuration, Citrination automates a full workflow of generating features, training a model, optimizing hyperparameters, assessing performance for a random forest model"
 ---
 ## Background
-
+Citrination is a browser based web platform for performing...
 
 > ## Reading and Video Tutorials
 > Here are some additional resources that may help with using the Citrination platform. 

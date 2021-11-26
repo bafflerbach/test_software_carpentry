@@ -5,17 +5,17 @@ exercises: 120
 questions:
 - "What type of research problems can machine learning solve, and what approach do models use to accomplish this?"
 - "How does a machine learning model make predictions from its inputs?"
-- "What are key steps in a workflow for solving a research problem (from the first question)?"
+- "What are a set of key steps (also called a workflow) for solving a machine learning research problem?"
   
 objectives:
 - "Students can describe the structure of several basic machine learning model types, the types of predictions that can be made, and metrics for assessing regression and classification performance"
-- "Studnets will gain skills in executing machine learning workflows via jupyter notebooks on cloud computing platforms which they can transfer to other projects."
+- "Students will practice using jupyter notebooks to execute machine learning workflows on cloud computing platforms which they can transfer to other projects."
 - "Students will assess model performance on two potential applications and justify which task the model is appropriate for" 
   
 keypoints:
 - "Machine learning (specifically supervised learning) can be used to model complex materials properties that are hard to obtain experimentally"
 - "Machine learning models make predictions by learning relationships and patterns from existing data, and use those learned patterns to make predictions of properties of new materials"
-- "The workflow or process for building machine learning models can be broken down into key steps: Data Cleaning, Feature Generation, Feature Engineering, Model Assessment, Model Optimization, and Model Predictions"
+- "A workflow for building machine learning models can be broken down into key steps: Data Cleaning, Feature Generation, Feature Engineering, Model Assessment, Model Optimization, and Model Predictions"
 ---
 
 ## Background

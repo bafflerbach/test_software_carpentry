@@ -38,7 +38,7 @@ Because you will inevitably run into roadblocks and obstacles and you will have 
 > 1. Things I can try to do independently:
 > 2. If that doesn’t work, things I could try to do next:
 > 3. If my other attempts fail, then try:  
-{: .discussion}
+{: .challenge}
   
 Reference:  W.C. Crone, Introduction to Engineering Research, Morgan & Claypool Publishers (2020).  
 (Note: This book is available as a free PDF download from the university library.)
