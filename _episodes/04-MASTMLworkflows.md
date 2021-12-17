@@ -4,11 +4,14 @@ teaching: 15
 exercises: 120
 questions:
 - "How can MASTML enable users to quickly to investigate different options within a machine learning workflow?"
+- "Specifically, how do users change the model type, hyperparameters, and define a grid search of hyperparameters?"
 objectives:
 - "Students learn how to modify different steps of a machine learing workflow within MAST-ML."
 - "Students are able to recreate workflows from other machine learning software (like Citrination or other base ML software packages like scikit-learn)."
+- "Students compare and previously generated random forest model to a model of their choice and assess the relative performance of the model types."
 keypoints:
-- "MASTML is divided into seperate modules which focus on key steps in a workflow. By changing individual steps with a few lines of code we can change settings and configurations at each step."
+- "MASTML is divided into seperate modules which focus on key steps in a machine learning workflow. By changing individual steps with a few lines of code we can change settings and configurations at each step."
+- "In the exercises we demonstrate changes to the model type and hyperparemeters. Additionally changes can be made to data cleaning, feature generation/engineering, model assessment by making similar edits in the notebook."
 
 ---
 ## Background
@@ -18,13 +21,14 @@ Google Colab is a cloud computing resource that allows us to run software on the
 We're going to use Google Colab to run the the MAST-ML software in a series of tutorials that demonstrate how to perform a basic machine learning workflow.
   
 MAST-ML is divided into a number of sections which allow users to perform ML workflows. These include: Data Importation, Data Cleaning, Feature Generation, Feature Engineering, Data Splitting (Train/Test/Validation), Model Assessment, and Model Optimization
-By giving the user freedom to choose methods at each of these workflow steps MAST-ML is a extremely customizable in it's use, compared to some other software tools which are much more limited in the methods used.
-  
+By giving the user freedom to choose methods at each of these workflow steps MAST-ML is a extremely customizable in it's use, compared to some other software tools which are much more structured in the methods used. 
+For example the [Citrination](https://citrination.com/users/sign_in){:target="_blank"} web tool which focuses on random forest models.
+    
 If you have a little more programming background you may be interested to check out the [github page](https://github.com/uw-cmg/MAST-ML){:target="_blank"} for the code below to see a bit about how it’s structured. There is usually ongoing efforts in the Skunkworks to improve and add features to MAST-ML so if this is something you might be interested in let us know!  
   
-For more detailed information on the structure of MAST-ML please see the [MAST-ML Documentation](https://mastmldocs.readthedocs.io/en/latest/){:target="_blank"}.
-There are also several other Jupyter Notebooks included there that demonstrate additional functionality in MAST-ML that is not covered in this module.  
-    
+This module serves as a continuation of Module 3: Introduction to MAST-ML. In that module students learn the basics of running MAST-ML through a Jupyter Notebook.
+In this module we will expand upon that initial understanding and practice making the kinds of edits and modifications to a workflow that might occur during research.
+  
 > ## Readings
 > For more detailed information on the structure of MAST-ML please see the [MAST-ML Documentation](https://mastmldocs.readthedocs.io/en/latest/).
 > There are also several other Jupyter Notebooks included there that demonstrate additional functionality in MAST-ML that is not covered in this module.
