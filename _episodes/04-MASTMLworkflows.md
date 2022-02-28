@@ -3,18 +3,22 @@ title: "Modifying Machine Learning Workflows with MAST-ML"
 teaching: 15
 exercises: 120
 questions:
-- "How can MASTML enable users to quickly to investigate different options within a machine learning workflow?"
+- "How does MASTML enable users to investigate different options within a machine learning workflow?"
 - "Specifically, how do users change the model type, hyperparameters, and define a grid search of hyperparameters?"
 objectives:
-- "Students learn how to modify different steps of a machine learing workflow within MAST-ML."
-- "Students are able to recreate workflows from other machine learning software (like Citrination or other base ML software packages like scikit-learn)."
-- "Students compare and previously generated random forest model to a model of their choice and assess the relative performance of the model types."
+- "Students will recreate workflows in MAST-ML from other machine learning software in (like Citrination or other base ML software packages like scikit-learn)."
+- "Students will practice modifying the model type and hyperparameters within a machine learning workflow in MAST-ML by editing code in a Jupyter Notebook."
+- "Students will compare a random forest model that's coded into the Jupyter Notebook to a model of their choice and assess the relative performance of the model types."
 keypoints:
-- "MASTML is divided into seperate modules which focus on key steps in a machine learning workflow. By changing individual steps with a few lines of code we can change settings and configurations at each step."
+- "MASTML is divided into seperate sections which execute key steps in a machine learning workflow. By changing individual steps with a few lines of code we can change settings and configurations at each step."
 - "In the exercises we demonstrate changes to the model type and hyperparemeters. Additionally changes can be made to data cleaning, feature generation/engineering, model assessment by making similar edits in the notebook."
 
 ---
 ## Background
+This module serves as a more detailed exploration of MAST-ML that was introduced in Module 3: Introduction to MAST-ML. In that module students learn the basics of running MAST-ML through a Jupyter Notebook.
+In this module we will expand upon that initial understanding and practice making the kinds of edits and modifications to a workflow that one would make when using MAST-ML in a research project.
+
+  
 The MAterial Science Toolkit for Machine Learning (MAST-ML) is a machine learning workflow software package built in python that leverages several other underlying python libraries to enable users to build and test models with little to no python background.
 The toolkit generates common outputs such as parity plots, learning curves, and standard error metrics which enables new users to easily get to the information needed to make informed decisions about how their models are performing.
 Google Colab is a cloud computing resource that allows us to run software on the cloud instead of our local laptops, giving access to more computing power and a standardized computing environment.
@@ -25,9 +29,6 @@ By giving the user freedom to choose methods at each of these workflow steps MAS
 For example the [Citrination](https://citrination.com/users/sign_in){:target="_blank"} web tool which focuses on random forest models.
     
 If you have a little more programming background you may be interested to check out the [github page](https://github.com/uw-cmg/MAST-ML){:target="_blank"} for the code below to see a bit about how it’s structured. There is usually ongoing efforts in the Skunkworks to improve and add features to MAST-ML so if this is something you might be interested in let us know!  
-  
-This module serves as a continuation of Module 3: Introduction to MAST-ML. In that module students learn the basics of running MAST-ML through a Jupyter Notebook.
-In this module we will expand upon that initial understanding and practice making the kinds of edits and modifications to a workflow that might occur during research.
   
 > ## Readings
 > For more detailed information on the structure of MAST-ML please see the [MAST-ML Documentation](https://mastmldocs.readthedocs.io/en/latest/).
