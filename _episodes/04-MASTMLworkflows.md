@@ -21,14 +21,19 @@ In this module we will expand upon that initial understanding and practice makin
   
 The MAterial Science Toolkit for Machine Learning (MAST-ML) is a machine learning workflow software package built in python that leverages several other underlying python libraries to enable users to build and test models with little to no python background.
 The toolkit generates common outputs such as parity plots, learning curves, and standard error metrics which enables new users to easily get to the information needed to make informed decisions about how their models are performing.
-Google Colab is a cloud computing resource that allows us to run software on the cloud instead of our local laptops, giving access to more computing power and a standardized computing environment.
+  
+Google Colab is a cloud computing resource that allows us to run software on the cloud instead of our local computer, giving access to more computing power and a standardized computing environment.
 We're going to use Google Colab to run the the MAST-ML software in a series of tutorials that demonstrate how to perform a basic machine learning workflow.
   
 MAST-ML is divided into a number of sections which allow users to perform ML workflows. These include: Data Importation, Data Cleaning, Feature Generation, Feature Engineering, Data Splitting (Train/Test/Validation), Model Assessment, and Model Optimization
-By giving the user freedom to choose methods at each of these workflow steps MAST-ML is a extremely customizable in it's use, compared to some other software tools which are much more structured in the methods used. 
-For example the [Citrination](https://citrination.com/users/sign_in){:target="_blank"} web tool which focuses on random forest models.
-    
-If you have a little more programming background you may be interested to check out the [github page](https://github.com/uw-cmg/MAST-ML){:target="_blank"} for the code below to see a bit about how it’s structured. There is usually ongoing efforts in the Skunkworks to improve and add features to MAST-ML so if this is something you might be interested in let us know!  
+By giving the user freedom to choose methods at each of these workflow steps MAST-ML is a extremely customizable in its use compared to some other software tools which are much more structured in the methods used. 
+For example the [Citrination](https://citrination.com/users/sign_in){:target="_blank"} web tool focuses on building and training random forest models but doesn't give the flexibility to explore other model types.
+  
+> ## For those with more interest in the python programming itself
+>  
+> If you have a little more programming background you may be interested to check out the [github page](https://github.com/uw-cmg/MAST-ML){:target="_blank"} for the code below to see a bit about how it’s structured. There is usually ongoing efforts in the Informatics Skunkworks group at UW-Madison to improve and add features to MAST-ML so if this is something you might be interested in let us know!  
+>  
+{: .solution}    
   
 > ## Readings
 > For more detailed information on the structure of MAST-ML please see the [MAST-ML Documentation](https://mastmldocs.readthedocs.io/en/latest/).
@@ -51,7 +56,7 @@ If you have a little more programming background you may be interested to check 
 >  
 > 4. With the notebook running then upload the data file “bandgap_data_v2.csv” and “generated_features.xlsx” using the upload button highlighted in red below.  
 >  
-> ![Uploading Data to Colab](../fig/workflows_1.png "Uploading data to Colab")    
+>    ![Uploading Data to Colab](../fig/workflows_1.png "Uploading data to Colab")    
 >  
 > 5. All further instructions are contained within the notebook file directly. You can begin running code in the notebook by pressing "shift+enter" when selecting any of the code cells.  
 >  
