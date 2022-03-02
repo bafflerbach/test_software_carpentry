@@ -3,16 +3,16 @@ title: "Optimizing Model Predictive Ability via Hyperparameter Optimization"
 teaching: 15
 exercises: 120
 questions:
-- "How can we change the hyperparameters of a model?"
-- "What is a strategy for improving model predictive ability through hyperparameter optimization?"
+- "How does MAST-ML enable users to modify the hyperparameters of a model?"
+- "Buidling off of the idea of using a grid search of hyperparameters, how can users converge on an optimized model?"
 objectives:
-- "Students learn about how model hyperparameters can affect performance and are introduced to some basic ideas on how these hyperparameters can be optimized."
-- "Students familiarize themselves with a hyperparameter optimization landscape and explore various methods of searching for a global minimum in model errors and avoiding getting trapped in a local minimum."
-- "Students familiarize themselves with neural networks, what they are, how to use them, and how to optimize them."
+- "Students learn about how model hyperparameters can affect performance and are introduced to some basic ideas on how these hyperparameters can be optimized, namely the grid search method."
+- "Students explore various methods of searching for a global minimum in model errors and avoiding getting trapped in a local minimum."
+- "Students run a neural network within MAST-ML. They can describe what they are, how to use them, and how to optimize them."
 keypoints:
-- "A sequential grid search of candidate hyperparameter values can progressively search for the best combination of model hyperparameters"
-- "Often time multiple grid searches are required to fully explore a space in sufficient detail"
-- "If exploring higher numbers of hyperparameters (>4 or so) it may be better to use more sophisticated search techniques as a full grid search takes much more computational time."
+- "A sequential grid search of candidate hyperparameter values can progressively search for the best combination of model hyperparameters."
+- "Often time multiple grid searches are required to fully explore a hyperparameter space in sufficient detail."
+- "If exploring higher numbers of hyperparameters (>4 or so) it may be better to use more sophisticated search techniques due to computational constraints."
 
 ---
 ## Background 
@@ -41,7 +41,7 @@ The main activity of this module will use the MAST-ML software, and we’ll be p
 >     2.2. Then upload the data files to a folder in your google drive called “MASTML_colab”  
 >     2.3. The rest of the instructions for this activity are included within the notebook itself.
 >  
-> > ## Note 
+> > ## Note if you have completed previous modules
 > >  
 > > if you just completed the modifying workflows activity you may have this setup already and do not need to download or upload the data files as they already exist in your MASTML_colab folder  
 > {: .solution}
