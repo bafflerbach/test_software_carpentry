@@ -9,7 +9,7 @@ questions:
 
 objectives:
 - "Using the MAST-ML software, students will execute common machine learning workflow steps: data cleaning, feature generation, feature engineering, model assessment through cross validation, model optimization, and model predictions."  
-- "Students compare error metrics from K-fold cross validation using different numbers of folds and assess the effects on reported error metrics."
+- "Students will compare error metrics from K-fold cross validation using different numbers of folds and assess the effects on reported error metrics."
 
 keypoints:
 - "MAST-ML is a machine learning workflow package that enables rapid iteration of model building and analysis due to the ability to customize each of the key steps in a machine learning workflow."
@@ -21,22 +21,21 @@ keypoints:
 
 The MAterial Science Toolkit for Machine Learning (MAST-ML) is a machine learning workflow software package built in python that leverages several other underlying python libraries to enable users to build and test models with little to no python background.
 The toolkit generates common outputs such as parity plots, learning curves, and standard error metrics which enables new users to easily get to the information needed to make informed decisions about how their models are performing.
-Google Colab is a cloud computing resource that allows us to run software on the cloud instead of our local laptops, giving access to more computing power and a standardized computing environment.
+  
+Google Colab is a cloud computing resource that allows us to run software on the cloud instead of our local computer, giving access to more computing power and a standardized computing environment.
 We're going to use Google Colab to run the the MAST-ML software in a series of tutorials that demonstrate how to perform a basic machine learning workflow.
   
 MAST-ML is divided into a number of sections which allow users to perform ML workflows. These include: Data Importation, Data Cleaning, Feature Generation, Feature Engineering, Data Splitting (Train/Test/Validation), Model Assessment, and Model Optimization
-By giving the user freedom to choose methods at each of these workflow steps MAST-ML is a extremely customizable in it's use, compared to some other software tools which are much more structured in the methods used. 
-For example the [Citrination](https://citrination.com/users/sign_in){:target="_blank"} web tool which focuses on random forest models.
+By giving the user freedom to choose methods at each of these workflow steps MAST-ML is a extremely customizable in its use compared to some other software tools which are much more structured in the methods used. 
+For example the [Citrination](https://citrination.com/users/sign_in){:target="_blank"} web tool focuses on building and training random forest models but doesn't give the flexibility to explore other model types.
   
-If you have a little more programming background you may be interested to check out the [github page](https://github.com/uw-cmg/MAST-ML){:target="_blank"} for the code below to see a bit about how it’s structured. There is usually ongoing efforts in the Skunkworks to improve and add features to MAST-ML so if this is something you might be interested in let us know!  
-  
-For more detailed information on the structure of MAST-ML please see the [MAST-ML Documentation](https://mastmldocs.readthedocs.io/en/latest/){:target="_blank"}.
-There are also several other Jupyter Notebooks included there that demonstrate additional functionality in MAST-ML that is not covered in this module.
-
-> ## Note
+> ## For those with more interest in the python programming itself
 >  
-> If you ... copy from above.  
-> {: .solution}  
+> If you have a little more programming background you may be interested to check out the [github page](https://github.com/uw-cmg/MAST-ML){:target="_blank"} for the code below to see a bit about how it’s structured. There is usually ongoing efforts in the Informatics Skunkworks group at UW-Madison to improve and add features to MAST-ML so if this is something you might be interested in let us know!  
+>  
+> For more detailed information on the structure of MAST-ML please see the [MAST-ML Documentation](https://mastmldocs.readthedocs.io/en/latest/){:target="_blank"}.  
+> There are also several other Jupyter Notebooks included there that demonstrate additional functionality in MAST-ML that is not covered in this module.  
+{: .solution}  
 
 > ## Activity: Your First MAST ML Run  
 >
