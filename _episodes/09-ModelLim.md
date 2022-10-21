@@ -1,46 +1,87 @@
 ---
-title: "Navigating Roadblocks and Obstacles"
+title: "Addressing Model Limitations"
 teaching: 15
 exercises: 20
 questions:
-- "What do I do when I get stuck on an activity / assignment?"
+- "How do I properly assess my model's performance and limitations when making new predictions?"
 objectives:
-- "Students identify a range of strategies from getting “unstuck” when tackling challenging problems and place these strategies in a hierarchy of actions that can be taken in a range of situations."
+- "Students learn about the ethical limits of model applicability"
 keypoints:
-- ""
+- "The data used to train a ML model can impart implicit bias into the models predictions"
+- "Considering how representative the training data is of predictions that we want to make can help us understand where it is appropriate to make predictions"
 
 ---
 ## Background  
 
-Inevitably you will experience roadblock and setbacks – both in developing an understanding of machine learning and your application of it to research problems. 
+Responsible conduct of research requires that scientists and engineers uphold ethical standards in every aspect of their work. 
+Although you are at the beginning of a research career at this point, the work you do will likely go on to have an impact on the field and the world around you. 
+The long-term outcomes may have significant ramifications for products, structures, and people’s lives. 
+As a young professional in your field you must attend to ethical standards for the societal good and for the sake of yourself and your coworkers. 
+Not only is a negligent individual placing their own reputation at risk, but they can also damage the reputations of their colleagues and the broader researcher community.  
   
-Research is inherently challenging because you are trying to do something that has not been done before.  You may need to alter assumptions, reframe hypotheses, and develop new ideas to get yourself around roadblocks. These modified/new assumptions/hypotheses/ideas may be ones that you generate yourself, or they may be ones that you generate with your peer colleagues, research mentors, collaborators, and/or your research group. This is fundamentally a part of the process of research and sometimes these obstacles can be the very thing that lead you to an unexpected and fruitful outcome.
+In machine learning you will need to both understand and be forthright about the limits of your model. 
+For instance, if a company developing machine learning for their self driving cars only trained its model on highway driving datasets, you would not be very comfortable getting in this car and letting it drive you through city streets. 
+Driving is occurring in both circumstances, but we know from our personal experience that these two types of driving are quite different from each other. 
+So you would not want the company to claim that their car is capable of self driving everywhere if their training set was limited to highway driving.  
   
-There are two common mistakes to avoid:  First, trying to be so independent and self sufficient that you never ask for help and end up spinning your wheels endlessly. Second, immediately jumping for assistance without taking some time to try to do some independent thinking so that you can troubleshoot the problem yourself. It can be a tough balance to find the middle ground, but recognizing when is the appropriate time to ask for help is part of the learning process. 
-  
-Because you will inevitably run into roadblocks and obstacles and you will have to think of creative ways to get around, over, or through them, it is important to develop a collection of strategies that might be useful to you in different situations and identify which ones would be best to try first and which to save to last.  
+Another example to think about is the pricing of houses. 
+If you were to develop a model predicting the sale price of houses in a medium sized city in the Midwestern U.S. (like Madison, WI), you would expect it would be quite an accurate model in that locale. 
+If you used that same model on another Midwestern city with a large urban population (like Chicago, IL) then you would expect that model to be less predictive. 
+You would expect even worse performance if you used this model on a city on the East Coast with an even larger urban population (like New York, NY). 
+So even though your model is good in the vicinity of your training dataset, once you go outside that vicinity your model is no longer reliable.    
+Because you will inevitably run into roadblocks and obstacles and you will have to think of creative ways to get around, over, or through them, 
+it is important to develop a collection of strategies that might be useful to you in different situations and identify which ones would be best to try first and which to save to last.  
+
+Machine learning cannot be ethically used to make predictions outside of its training scope. 
+Consider mammography databases that are used diagnostically for breast cancer in women. 
+These databases usually contain mammograms from disproportionately more white women than black women. 
+If a machine learning model were developed to predict breast cancer by training on such a database, it would not predict as equitably for all patients (Stewart, 2019). 
+For this reason, recent research using machine learning to detect breast cancer is training on data from both white women and black women. 
+This is particularly important given that black women are 42% more likely to die from breast cancer (Conner-Simons and Gordon, 2019).  
+
+As you consider the data sets that you are employing, take the time to think about the applicability of the model you are developing and its limitations.
   
 > ## Activity: Reflect on actions in "Introduction to Citrination" module  
->  Consider the list of strategies below as a starting point and work with your group to add additional items and more detail (the who and how for your Skunkworks group).  
+> In the Introduction to Citrination module you trained a model to predict fatigue strength in metal alloys. 
+> We will now perform a quick experiment to explore a bit more about how the model is performing as a function of one of the input features. 
+> If you haven’t completed this activity yet please refer to the instructions for uploading the IMMI_400.csv dataset to the Citrination platform and training a machine learning model to predict fatigue strength.  
 >  
-> * Reread/review what is already available to you
-> * Look for public online resources that might help (i.e. Google it)
-> * Think about the problem sideways (i.e. look at it from another angle)
-> * Take a short break and come back to it with fresh eyes
-> * Break a big problem into small pieces and tackle each one separately
-> * Interact with peer colleagues who may have dealt with something similar
-> * Use your broader network 
-> * Interact with your group mentor
-> * Seek out other subject experts
-> * Identify ways you can move forward even in the face of uncertainty
+> Assuming you have access to that trained model, refer back to the model’s data view on Citrination and first we’ll go look at the Reports tab. 
+> In the reports tab look for the section on “feature importance” and you should see that the most important feature by far in the trained model is the Normalizing Temperature. 
+> For this activity we’ll fix the other input features in place and vary the Normalizing Temperature to see the effects on the model.  
+> 
+> With that in mind, now we’ll navigate to the Predict tab under the dataview. 
+> Here we can input directly any set of input parameters and have the model make predictions for us. On this tab do the following:  
+> 1) Set the composition input to: C0.4Si0.32Mn0.79P0.013S0.011Ni0.05Cr1.09Cu0.04Mo0  
+> 2) Set the through hardening temperature and time to: 855 Kelvin, and 30 hours respectively  
+> 3) Set the normalizing temperature to: 600, 700, 800, 850, 900, 950, 1000, 1100, and 1200  
 >  
-> After developing a more complete list, place them into three categories:  
-> 1. Things I can try to do independently:
-> 2. If that doesn’t work, things I could try to do next:
-> 3. If my other attempts fail, then try:  
+> Now Plot the fatigue strength as a function of the normalizing temperature for this material at fixed through hardening conditions.  
+> 
+> Using this plot and knowledge about the range of the normalizing temperature in the training data answer the following:  
+> 1) At what value for normalizing temperature does the fatigue strength change dramatically?  
+> 2) What is the range of normalizing temperature in the training data?  
+> 3) Does this change fall within the range of normalizing temperature?  
+> 4) For predictions that we made outside of this range of normalizing temperatures, does the model make any predictions that deviate from the prediction made near the highest/lowest value?  
+> 5) Do you think the model is reporting true physics for the predictions of normalizing temperature well above 1,000 K? Another way to think about this is, should we trust the model to predict fatigue strengths for normalizing temperatures above 1,000K?  
+>  
+> Using what we’ve learned about the model’s performance with respect to normalizing temperature answer the following: Do you think the model can be trusted to predict accurately…  
+> 1) An alloy with a through hardening time of 60 hours.  
+> 2) A metallic alloy containing no carbon  
+> 3) The following alloy for reasonable ranges of the processing times and temperatures: C0.35Si0.21Mn0.77P0.021S0.022Ni0.01Cr0.01Cu0.02Mo0  
+> Hint – copy and search for the composition in the dataset. Is it a composition we have in training?  
+> 4) The same alloy with Through hardening temperature and time of 700 °C and 15 hrs.  
 {: .discussion}
   
-Reference:  W.C. Crone, Introduction to Engineering Research, Morgan & Claypool Publishers (2020).  
-(Note: This book is available as a free PDF download from the university library.)
+References:  
 
+Jeffrey Dastin, "Amazon scraps secret AI recruiting tool that showed bias against women,"
+Reuters, October 10, 2018. https://www.reuters.com/article/us-amazon-com-jobs-automation-insight/amazon-scraps-secret-ai-recruiting-tool-that-showed-bias-against-women-idUSKCN1MK08G  
+
+Adam Conner-Simons and Rachel Gordon, "Using AI to predict breast cancer and personalize care," MIT News, May 7, 2019. https://news.mit.edu/2019/using-ai-predict-breast-cancer-and-personalize-care-0507  
+
+Matthew Stewart, “The Limitations of Machine Learning,” Medium, July 29, 2019. https://towardsdatascience.com/the-limitations-of-machine-learning-a00e0c3040c6  
+
+W.C. Crone, Introduction to Engineering Research, Morgan & Claypool Publishers (2020).
+(Note: This book is available as a free PDF download from the university library.)  
 {% include links.md %}
