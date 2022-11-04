@@ -27,7 +27,6 @@ We're going to use Google Colab to run the the MAST-ML software in a series of t
   
 MAST-ML is divided into a number of sections which allow users to perform ML workflows. These include: Data Importation, Data Cleaning, Feature Generation, Feature Engineering, Data Splitting (Train/Test/Validation), Model Assessment, and Model Optimization
 By giving the user freedom to choose methods at each of these workflow steps MAST-ML is a extremely customizable in its use compared to some other software tools which are much more structured in the methods used. 
-For example the [Citrination](https://citrination.com/users/sign_in){:target="_blank"} web tool focuses on building and training random forest models but doesn't give the flexibility to explore other model types.
   
 > ## For those with more interest in the python programming itself
 >  

@@ -42,35 +42,9 @@ This is particularly important given that black women are 42% more likely to die
 As you consider the data sets that you are employing, take the time to think about the applicability of the model you are developing and its limitations.
   
 > ## Activity: Reflect on actions in "Introduction to Citrination" module  
-> In the Introduction to Citrination module you trained a model to predict fatigue strength in metal alloys. 
-> We will now perform a quick experiment to explore a bit more about how the model is performing as a function of one of the input features. 
-> If you haven’t completed this activity yet please refer to the instructions for uploading the IMMI_400.csv dataset to the Citrination platform and training a machine learning model to predict fatigue strength.  
->  
-> Assuming you have access to that trained model, refer back to the model’s data view on Citrination and first we’ll go look at the Reports tab. 
-> In the reports tab look for the section on “feature importance” and you should see that the most important feature by far in the trained model is the Normalizing Temperature. 
-> For this activity we’ll fix the other input features in place and vary the Normalizing Temperature to see the effects on the model.  
-> 
-> With that in mind, now we’ll navigate to the Predict tab under the dataview. 
-> Here we can input directly any set of input parameters and have the model make predictions for us. On this tab do the following:  
-> 1) Set the composition input to: C0.4Si0.32Mn0.79P0.013S0.011Ni0.05Cr1.09Cu0.04Mo0  
-> 2) Set the through hardening temperature and time to: 855 Kelvin, and 30 hours respectively  
-> 3) Set the normalizing temperature to: 600, 700, 800, 850, 900, 950, 1000, 1100, and 1200  
->  
-> Now Plot the fatigue strength as a function of the normalizing temperature for this material at fixed through hardening conditions.  
-> 
-> Using this plot and knowledge about the range of the normalizing temperature in the training data answer the following:  
-> 1) At what value for normalizing temperature does the fatigue strength change dramatically?  
-> 2) What is the range of normalizing temperature in the training data?  
-> 3) Does this change fall within the range of normalizing temperature?  
-> 4) For predictions that we made outside of this range of normalizing temperatures, does the model make any predictions that deviate from the prediction made near the highest/lowest value?  
-> 5) Do you think the model is reporting true physics for the predictions of normalizing temperature well above 1,000 K? Another way to think about this is, should we trust the model to predict fatigue strengths for normalizing temperatures above 1,000K?  
->  
-> Using what we’ve learned about the model’s performance with respect to normalizing temperature answer the following: Do you think the model can be trusted to predict accurately…  
-> 1) An alloy with a through hardening time of 60 hours.  
-> 2) A metallic alloy containing no carbon  
-> 3) The following alloy for reasonable ranges of the processing times and temperatures: C0.35Si0.21Mn0.77P0.021S0.022Ni0.01Cr0.01Cu0.02Mo0  
-> Hint – copy and search for the composition in the dataset. Is it a composition we have in training?  
-> 4) The same alloy with Through hardening temperature and time of 700 °C and 15 hrs.  
+> Think about other situations in which models may be outside of their training scope. 
+> Add below with an example of a situation in which a model might be outside the scope of it’s training data. 
+> This may come from a personal experience, previous activities you’ve worked on, or an area of interest you’d like to work on in the future.  
 {: .discussion}
   
 References:  
