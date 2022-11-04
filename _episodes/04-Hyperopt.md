@@ -1,5 +1,5 @@
 ---
-title: "Optimizing Model Predictive Ability via Hyperparameter Optimization"
+title: "Optimizing Model Hyperparameters"
 teaching: 15
 exercises: 120
 questions:

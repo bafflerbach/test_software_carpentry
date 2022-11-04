@@ -1,5 +1,5 @@
 ---
-title: "Modifying Machine Learning Workflows with MAST-ML"
+title: "Comparing Model Types"
 teaching: 15
 exercises: 120
 questions:

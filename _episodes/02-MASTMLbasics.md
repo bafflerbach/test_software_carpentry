@@ -1,5 +1,5 @@
 ---
-title: "Introduction to MAST-ML"
+title: "Establishing Research Workflows"
 teaching: 15
 exercises: 120
 questions:
