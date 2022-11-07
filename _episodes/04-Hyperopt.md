@@ -30,8 +30,8 @@ The main activity of this module will use the MAST-ML software, and we’ll be p
 > ## Activity
 > This activity is broken down into two parts. The first is an introduction to Neural Networks which we will then use in the second part to explore optimizing a neural network.
 >  
-> 1. For an interactive way get to know neural networks better also visit this neural network demo by tensorflow: https://playground.tensorflow.org/   
->     1.1. Complete the activities related to the playground included in the ML crash course by google here: https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises  
+> 1. For an interactive way get to know neural networks better also visit this neural [network demo by tensorflow](https://playground.tensorflow.org/)   
+>     1.1. Complete the activities related to the playground included in the [ML crash course by google](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises)  
 >     1.2. (Optional) If you are looking to practice some programming you can also continue on to the related “programming exercise” that they include which will link you to google colab and provide its own instructions.  
 > 2. Colab activity
 > We will be using Google Colab to perform all of our computing so to begin download the the  
