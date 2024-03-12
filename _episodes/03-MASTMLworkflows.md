@@ -45,8 +45,8 @@ For example the [Citrination](https://citrination.com/users/sign_in){:target="_b
 > We will then go through how to make edits to this notebook that enable users to modify each step in the workflow.
 >  
 > 1. We will be using Google Colab to perform all of our computing so to begin download the the 
-> [.ipynb notebook file](https://drive.google.com/file/d/1jCXegWX-th2blgZwSFwPbfttrXcZdVmk/view?usp=drive_link){:target="_blank"}, 
-> [the bandgap_data_v2.csv](https://drive.google.com/file/d/17W3MILay6-vusnVaEqKLMip96pzjiWq_/view?usp=drive_link){:target="_blank"}, 
+> [.ipynb notebook file](https://drive.google.com/file/d/1IxmrvpptZUuAX1RGZtgGvjwGIi264GBb/view?usp=sharing){:target="_blank"}, 
+> [the bandgap_data_v2.csv](https://drive.google.com/file/d/17W3MILay6-vusnVaEqKLMip96pzjiWq_/view?usp=sharing){:target="_blank"}, 
 > and the [generated_features.xlsx](https://docs.google.com/spreadsheets/d/10Oy_XdH51db9e769OqKtD9-agHk1L6ug/edit?usp=sharing&ouid=110973014880550868255&rtpof=true&sd=true){:target="_blank"} 
 > files to your local computer.   
 >  

@@ -35,8 +35,8 @@ The main activity of this module will use the MAST-ML software, and we’ll be p
 >     1.2. (Optional) If you are looking to practice some programming you can also continue on to the related “programming exercise” that they include which will link you to google colab and provide its own instructions.  
 > 2. Colab activity
 > We will be using Google Colab to perform all of our computing so to begin download the the  
-> [.ipynb notebook file](https://drive.google.com/file/d/1texODGqPo2Dg-5MnPjbxhT5hmWiAFeV3/view?usp=sharing),  
-> [the bandgap_data_v2.csv](https://drive.google.com/file/d/1BfQtOX2QnOzRjrTlYxUJ3ks2AteXlSMD/view?usp=sharing),  
+> [.ipynb notebook file](https://drive.google.com/file/d/1jCXegWX-th2blgZwSFwPbfttrXcZdVmk/view?usp=sharing),  
+> [the bandgap_data_v2.csv](https://drive.google.com/file/d/17W3MILay6-vusnVaEqKLMip96pzjiWq_/view?usp=sharing),  
 >     2.1. First start by uploading the .ipynb file to Colab  
 >     2.2. Then upload the data files to a folder in your google drive called “MASTML_colab”  
 >     2.3. The rest of the instructions for this activity are included within the notebook itself.
