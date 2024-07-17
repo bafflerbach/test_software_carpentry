@@ -53,7 +53,7 @@ You may also view the [Lecture Slides](../files/Intro to ML.pptx) and [Lecture N
 > 1. With your notebook open (by clicking the launch tool button) make a copy if you haven’t already using the File drop down menu in the top left. 
 > 2. The copy will open in a new tab in your browser. Save the copy by clicking “save and checkpoint” under the File drop down menu in the new tab.
 > 3. At this point you may close the original tab as we won't use it anymore. 
-> 4. To find the newly copied file (to download or open it up later) we will use the [Jupyter tool](https://nanohub.org/tools/jupyter) on Nanohub. Launch this tool which will give us access to the virtual computer that Nanohub is hosting for us. 
+> 4. To find the newly copied file (to download or open it up later) we will use the [Jupyter tool](https://nanohub.org/tools/jupyter70) on Nanohub. Launch this tool which will give us access to the virtual computer that Nanohub is hosting for us. 
 > 5. Navigate to the folder “data/results/####/intromllab/bin/”. Note: the number will be a unique number associated with your session. Pick the most recent one if there are multiple (or an older one if you are looking for an older saved file).
 > 6. Double click the notebook file “intromllab-Copy1.ipynb” to launch your saved notebook. This is the newly copied notebook file that you just created.
 > 7. You can now save this notebook freely, and to return to this notebook later launch the same tool as step 2 and follow the instructions from there.
